@@ -25,6 +25,16 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Health",
+                    "type": "Button",
+                    "id": "207fe29b-db0c-4fa6-a8ff-32cd243f09f7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -71,6 +81,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4db6034b-b0e8-4a4e-9e74-6ac3f87dd93f",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Health",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
